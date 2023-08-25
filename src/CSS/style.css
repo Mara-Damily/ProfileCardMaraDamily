@@ -1,0 +1,98 @@
+* {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+}
+
+.background {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(185, 75%, 39%);
+}
+
+.background .card {
+    width: 450px;
+    height: 500px;
+    background-color: white;
+    border-radius: 8px;
+    font-family: 'Oxanium', cursive;
+    display: flex;
+    justify-content: flex-start;
+    box-sizing: border-box;
+    align-items: center;
+    flex-direction: column;
+}
+
+.card .image {
+    background-color: blue;
+    height: 150px;
+    border-radius: 100px;
+    box-sizing: border-box;
+    margin-top: 20px;
+}
+
+.card .header {
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    align-items: center;
+    color: hsl(227, 10%, 46%);
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.header .location {
+    margin-top: 50px;
+}
+
+.name .age {
+    font-weight: 400;
+}
+
+.footer {
+    height: 60px;
+    display: block;
+    margin-top: 10px;
+    padding-top: 50px;
+    border-top: solid 2px hsl(227, 10%, 46%);
+}
+
+.Linkedin,
+.GitHub {
+    margin-right: 15px;
+}
+
+.card:hover {
+    border: solid 2px #3d405b;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+
+}
+
+.image:hover {
+    border-style: groove;
+}
+
+.Instagram:hover {
+    display: inline-block;
+    box-sizing: border-box;
+    border: solid 2px #a5a58d;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    border-radius: 18px;
+}
+
+.Linkedin:hover {
+    display: inline-block;
+    box-sizing: border-box;
+    border: solid 2px #a5a58d;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+}
+
+.GitHub:hover {
+    display: inline-block;
+    box-sizing: border-box;
+    border: solid 1px #a5a58d;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    border-radius: 38px;
+}
